@@ -1,0 +1,117 @@
+/* quizPage.css */
+.quiz-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 60px;
+    background: #fcfcfb;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.progress-bar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.progress-bar div {
+    height: 6px;
+    width: 120px;
+    margin: 0 5px;
+    background: #208cd4;
+    border-radius: 10px;
+}
+
+.quiz-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-weight: bold;
+    color: #446481;
+}
+
+.quiz-content {
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.question {
+    font-size: 26px;
+    font-weight: bold;
+    color: #222;
+    margin-bottom: 25px;
+}
+
+.options label {
+    display: flex;
+    align-items: center;
+    padding: 18px;
+    margin: 12px 0;
+    border: 2px solid #9eb2c5;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+    background: #ffffff;
+}
+
+.options label:hover, .options label.selected {
+    background: #007BFF;
+    border-color: #b1c3d47a;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.previous-button, .next-button, .submit-button, .restart-button {
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.previous-button {
+    background: #e0e0e0f3;
+    color: #333;
+}
+
+.previous-button:hover {
+    background: #8ebef1;
+}
+
+.next-button {
+    background: #007BFF;
+    color: white;
+}
+
+.next-button:hover {
+    background: #0056b3;
+}
+
+.submit-button {
+    background: #0f9b0a;
+    color: white;
+}
+
+.submit-button:hover {
+    background: #3d5c3c;
+}
+
+
+.restart-button {
+    background: #999b0a;
+    color: white;
+}
+
+.restart-button:hover {
+    background: #d1d092a1;
+}

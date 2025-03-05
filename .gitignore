@@ -1,0 +1,52 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+gamebackend/
+*.venv
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Cache and logs
+*.log
+*.cache
+*.pytest_cache/
+
+# Environment variables & secrets
+.env
+.env.local
+.env.development
+.env.production
+.DS_Store
+
+# Database files
+*.sqlite3
+*.db
+*.sql
+
+# Python package files
+dist/
+build/
+*.egg-info/
+
+# model folder
+model_offload/
+
+
+# VSCode & JetBrains IDE settings
+.vscode/
+.idea/
+
+# Logs and debug output
+logs/
+debug.log
+
+# PyCharm
+__pycache__/
+.idea/
+*.iml

@@ -1,0 +1,18 @@
+fastapi
+uvicorn
+pydantic
+passlib
+python-jose
+sqlalchemy
+bcrypt
+requests
+beautifulsoup4
+
+transformers
+torch
+
+accelerate>=0.26.0
+safetensors
+
+# To generate the requirements.txt file automatically, you can use the following command:
+# pip freeze > requirements.txt

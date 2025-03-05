@@ -1,0 +1,57 @@
+.container {
+    display: flex;
+    margin-top: 10px;
+}
+
+.link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.quizContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+
+.quizQuestion {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.quizAnswer {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.financialQuiz {
+    flex: 5;
+}
+
+.quizIntro-container {
+    font-family: 'Poppins', sans-serif;
+    max-width: 800px;
+    margin: auto;
+    padding: 60px;
+    background: #FFFCF5;
+    box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.08);
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+.start-button{
+    background-color: #1c8edac0;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 20px;
+}
+
+.start-button:hover{
+    background-color: #FFA000;
+}

@@ -1,0 +1,61 @@
+
+.landing-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    /* Complex animated gradient background */
+    background: linear-gradient(135deg, #ff5722, #e64a19, #9c27b0, #673ab7);
+    background-size: 400% 400%;
+    animation: gradientAnimation 15s ease infinite;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .hero-section {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay for readability */
+    padding: 4rem;
+    border-radius: 8px;
+  }
+  
+  .hero-content {
+    text-align: center;
+    color: #ffffff;
+  }
+  
+  .game-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    font-weight: bold;
+  }
+  
+  .tagline {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  
+  .cta-button {
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #ff5722;
+    color: #ffffff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #e64a19;
+  }
+  

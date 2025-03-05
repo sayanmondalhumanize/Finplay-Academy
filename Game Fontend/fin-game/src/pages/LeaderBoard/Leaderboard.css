@@ -1,0 +1,103 @@
+/* leaderboard.css */
+.leaderboard-container {
+    font-family: 'Poppins', sans-serif;
+    width: 70%;
+    height: 90%;
+    margin: 0;
+    background: #ffffff;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.leaderboard-title {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.leaderboard-table {
+    width: 90%;
+    max-height: 80vh;
+    border-collapse: collapse;
+    margin-top: 20px;
+    overflow-y: auto;
+    display: block;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-color: transparent transparent; 
+}
+
+.leaderboard-table::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.leaderboard-table th, .leaderboard-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.leaderboard-table th {
+    background: #f8f9fa;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.leaderboard-table tbody {
+    display: block;
+    max-height: 60vh;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.leaderboard-table tr {
+    display: table;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.leaderboard-table tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.leaderboard-table tr:hover {
+    background: #e9ecef;
+}
+
+.MuiDataGrid-root {
+    width: 90%;
+    max-height: 80vh;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    overflow-y: auto;
+}
+
+.MuiDataGrid-columnHeaders {
+    background: #f8f9fa;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.MuiDataGrid-cell {
+    font-size: 14px;
+    color: #333;
+    white-space: nowrap;
+}
+
+.MuiDataGrid-row:nth-child(even) {
+    background: #f2f2f2;
+}
+
+.MuiDataGrid-row:hover {
+    background: #e9ecef;
+}

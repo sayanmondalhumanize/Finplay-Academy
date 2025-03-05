@@ -1,0 +1,108 @@
+/* General game container */
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: white;
+  padding: 20px;
+  position: relative;
+  transition: all 0.5s ease-in-out;
+}
+
+/* Title and description */
+.game-title {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.game-description {
+  font-size: 1.3rem;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+
+/* Button Group */
+.button-group {
+  display: flex;
+  gap: 15px;
+}
+
+/* Custom Buttons */
+.custom-button {
+  padding: 12px 24px;
+  font-size: 1.2rem;
+  font-weight: bold;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.play-button {
+  background-color: #1e90ff;
+  color: white;
+}
+
+.play-button:hover {
+  background-color: #1c86ee;
+}
+
+.team-button {
+  background-color: #555;
+  color: white;
+}
+
+.team-button:hover {
+  background-color: #444;
+}
+
+/* Whiteout effect */
+.whiteout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: white;
+  z-index: 10;
+  animation: fadeOut 1s forwards;
+}
+
+@keyframes fadeOut {
+  0% { opacity: 1; }
+  100% { opacity: 0; display: none; }
+}
+
+/* Egg Container */
+.egg-container {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  z-index: 20;
+}
+
+/* Egg Mascot */
+.egg-mascot {
+  width: 100px !important;
+  height: 100px !important;
+}
+
+/* Dialogue Box */
+.dialogue-box {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-size: 1rem;
+  max-width: 200px;
+  text-align: center;
+}
