@@ -1,8 +1,6 @@
 /* Analysis Page Container */
 .analysis-container {
   display: flex;
-  /* align-items: center; */
-  /* justify-content: center; */
   height: 100vh;
   background-color: white;
   color: black;
@@ -18,10 +16,8 @@
 }
 /* User Input Section */
 .user-input {
-  background: #f9f9f9;
   padding: 20px;
   border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   width: 90%;
   max-width: 900px;
   text-align: center;
