@@ -22,10 +22,13 @@ export default function Sidebar() {
                                 Home
                             </li>
                         </Link>
-                        <li className="sidebarListItem">
-                            <Timelapse className="sidebarIcon" />
-                            Analytics
-                        </li>
+                        <Link to="/analysis" className="link">
+                            <li className="sidebarListItem">
+                                <Timelapse className="sidebarIcon" />
+                                Analytics
+                            </li>
+                        </Link>
+
                         <li className="sidebarListItem">
                             <BarChartOutlined className="sidebarIcon" />
                             Stats
@@ -55,12 +58,12 @@ export default function Sidebar() {
                                 Market Place
                             </li>
                         </Link>
-                     
+
                     </ul>
                 </div>
 
-                
-            <div className="sidebarMenu">
+
+                <div className="sidebarMenu">
                     <h3 className="sidebarTitel">
                         Learning Module
                     </h3>
@@ -72,16 +75,16 @@ export default function Sidebar() {
                             </li>
                         </Link>
                         <Link to="/externalLink" className="link">
-                        <li className="sidebarListItem">
-                            <LinkTwoTone className="sidebarIcon" />
-                            External Links
-                        </li>
+                            <li className="sidebarListItem">
+                                <LinkTwoTone className="sidebarIcon" />
+                                External Links
+                            </li>
                         </Link>
                         <Link to="/leaderBoard" className="link">
-                        <li className="sidebarListItem">
-                            <LeaderboardTwoTone className="sidebarIcon" />
-                            Leader Board
-                        </li>
+                            <li className="sidebarListItem">
+                                <LeaderboardTwoTone className="sidebarIcon" />
+                                Leader Board
+                            </li>
                         </Link>
                     </ul>
                 </div>
