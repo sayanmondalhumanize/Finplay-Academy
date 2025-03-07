@@ -1,7 +1,7 @@
 import React from "react";
 import "./topbar.css";
 import { NotificationsNone, Language, Settings } from "@mui/icons-material";
-import { topbarLogoURL , userImageURL } from "../../dummyData";
+import { topbarLogoURL , userImageURL } from "../../dummydata/dummyData";
 
 
 export default function Topbar() {

@@ -1,7 +1,7 @@
 import React from "react";
 import "./Leaderboard.css";
 import { DataGrid } from "@mui/x-data-grid";
-import { leaderboardData } from "../../dummyData";
+import { leaderboardData } from "../../dummydata/dummyData";
 
 const columns = [
     { field: "rank", headerName: "Rank", width: 100 },

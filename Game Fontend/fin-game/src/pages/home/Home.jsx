@@ -3,7 +3,7 @@ import FeaturedInfo from "../../components/featuredInfo/FeaturedInfo";
 import Chart from "../../components/chart/Chart";
 
 
-import { Userdata } from "../../dummyData";
+import { Userdata } from "../../dummydata/dummyData";
 import "./home.css";
 
 

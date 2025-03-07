@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./KnowledgeBase.css";
-import { financialTopics } from "../../dummyData";
+import { financialTopics } from "../../dummydata/dummyData";
 
 export default function KnowledgeBase() {
     const [searchTerm, setSearchTerm] = useState("");
