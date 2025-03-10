@@ -72,7 +72,7 @@ const MutualFundAnalysis = ({ schemeCode, onClose }) => {
 
           {generateChartData() && (
             <div className="chart-wrapper">
-              <h4>NAV Trend (Last 30 Days)</h4>
+              <h4>NAV Trend (Last Available Data)</h4>
               <Line data={generateChartData()} options={{ responsive: true, plugins: { legend: { display: false } } }} />
             </div>
           )}
