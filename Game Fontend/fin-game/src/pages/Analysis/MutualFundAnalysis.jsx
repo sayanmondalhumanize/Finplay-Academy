@@ -56,14 +56,14 @@ const MutualFundAnalysis = ({ schemeCode, onClose }) => {
   return (
     <div className="mutual-fund-analysis-container">
       <div className="header">
-        <h2>Fund Analysis</h2>
+        <h2 className="title">Fund Analysis</h2>
         <button className="close-btn" onClick={onClose}>✕</button>
       </div>
       {loading ? (
         <p>Loading fund data...</p>
       ) : fundData ? (
         <div className="fund-details">
-          <h3>{fundData.meta.scheme_name}</h3>
+          <h3 className="fund-name">{fundData.meta.scheme_name}</h3>
           <p><strong>Fund House:</strong> {fundData.meta.fund_house}</p>
           <p><strong>Category:</strong> {fundData.meta.scheme_category}</p>
           <p><strong>Type:</strong> {fundData.meta.scheme_type}</p>

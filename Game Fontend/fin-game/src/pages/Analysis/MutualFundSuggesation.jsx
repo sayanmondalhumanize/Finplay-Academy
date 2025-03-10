@@ -8,9 +8,13 @@ const MutualFundSuggesation = ({ defaultQuery = "", onClose }) => {
   const [results, setResults] = useState([]);
   const [selectedSchemeCode, setSelectedSchemeCode] = useState(null);
 
+  const sanitizeQuery = (text) => {
+    return text.replace(/\bFunds?\b/gi, '').trim();
+  };
+
   useEffect(() => {
     if (defaultQuery) {
-      const filteredResults = searchMutualFunds(defaultQuery);
+      const filteredResults = searchMutualFunds(sanitizeQuery(defaultQuery));
       setResults(filteredResults);
     }
   }, [defaultQuery]);
@@ -31,7 +35,7 @@ const MutualFundSuggesation = ({ defaultQuery = "", onClose }) => {
 
   const handleSearch = () => {
     if (query.trim() === "") return;
-    const filteredResults = searchMutualFunds(query);
+    const filteredResults = searchMutualFunds(sanitizeQuery(query));
     setResults(filteredResults);
   };
 
