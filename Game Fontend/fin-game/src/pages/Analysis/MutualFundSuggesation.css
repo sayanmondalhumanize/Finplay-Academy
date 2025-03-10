@@ -23,6 +23,7 @@
   width: 90%;
   max-width: 550px;
   padding: 24px;
+  min-height: 80vh;
   max-height: 100vh;
   overflow-y: auto;
   font-family: 'Segoe UI', sans-serif;
